@@ -24,27 +24,26 @@ Developed by: KEERTHIKA M P
 RegisterNumber:212223240071
 */
 import numpy as np
-import matplotlib.pyplot as plt 
-X= np.array(eval(input()))
-Y= np.array(eval(input()))
-
+import matplotlib.pyplot as plt
+X=np.array(eval(input()))
+Y=np.array(eval(input()))
 X_mean=np.mean(X)
+print(X_mean)
 Y_mean=np.mean(Y)
+print(Y_mean)
 num=0
-denom=0
+denum=0
 for i in range(len(X)):
-    num+=(X[i]-X_mean)*(Y[i]-Y_mean)
-    denom+=(X[i]-X_mean)**2
-    
-m=num/denom
-
-b=Y_mean-m*X_mean
-
-print(m,b)
-y_predicted=m*X+b
-print(y_predicted)
-plt.scatter(X,Y)
-plt.plot(X,y_predicted,color='red')
+  num+=(X[i]-X_mean)*(Y[i]-Y_mean)
+  denum+=(X[i]-X_mean)**2
+m=num/denum
+print(m)
+b=Y_mean - m*X_mean
+print(b)
+Y_pred=m*X+b
+print(Y_pred)
+plt.scatter(X,Y,color='blue')
+plt.plot(X,Y_pred,color='yellow') 
 plt.show()
 
 */
@@ -52,12 +51,10 @@ plt.show()
 
 ## Output:
 ## Slope and Y predicted:
--1.125748502994012 13.97305389221557
-[ 4.96706587 11.72155689  1.58982036  7.21856287  8.34431138  9.47005988
-  3.84131737 12.84730539]
-## Graph:
-![ML first exp](https://github.com/user-attachments/assets/2dad3cd6-985f-406f-b7e1-a1018219cfc7)
 
+
+## Graph:
+![WhatsApp Image 2024-08-28 at 20 56 36_ff24fd11](https://github.com/user-attachments/assets/6983a958-6e15-4415-b305-b6c4719c9867)
 ![best fit line](sam.png)
 
 
