@@ -48,12 +48,7 @@ plt.show()
 
 */
 ```
-
 ## Output:
-## Slope and Y predicted:
-
-
-## Graph:
 ![WhatsApp Image 2024-08-28 at 20 56 36_ff24fd11](https://github.com/user-attachments/assets/6983a958-6e15-4415-b305-b6c4719c9867)
 ![best fit line](sam.png)
 
