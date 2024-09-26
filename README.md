@@ -49,9 +49,15 @@ plt.show()
 */
 ```
 ## Output:
-![WhatsApp Image 2024-08-28 at 20 56 36_ff24fd11](https://github.com/user-attachments/assets/6983a958-6e15-4415-b305-b6c4719c9867)
-![best fit line](sam.png)
+![image](https://github.com/user-attachments/assets/4482601d-7c07-4bfe-a318-4275967e9798)
 
+![image](https://github.com/user-attachments/assets/762e2d7a-a784-42eb-a140-637575872201)
+
+![image](https://github.com/user-attachments/assets/05db38f5-a619-4a3b-b9ba-23cc72bb839d)
+
+![image](https://github.com/user-attachments/assets/391c9cf3-6a7d-4a1b-801f-525e03bab005)
+
+![image](https://github.com/user-attachments/assets/a10e9dd6-aab2-4928-a861-a64d788dadbc)
 
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
